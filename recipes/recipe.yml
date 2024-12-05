@@ -30,7 +30,7 @@ modules:
       - mako
       - xdg-utils
       - xdg-desktop-portal-gtk
-      - xdg-desktop-portal-gnome
+      #- xdg-desktop-portal-gnome
       - xdg-desktop-portal-wlr
       - xdg-desktop-portal
       - gnome-keyring
