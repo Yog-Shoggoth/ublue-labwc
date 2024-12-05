@@ -27,11 +27,12 @@ modules:
       - wlr-randr
       - fuzzel
       - polkit
-      #- gnome-polkit
+      - mako
       - xdg-utils
       - xdg-desktop-portal-gtk
       - xdg-desktop-portal-wlr
       - xdg-desktop-portal
+      - gnome-keyring
     remove:
       - nano 
       - nano-default-editor
