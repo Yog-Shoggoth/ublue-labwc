@@ -25,8 +25,14 @@ modules:
     install:
       - labwc
       - wl-clipboard
+      - wlr-randr
       - fuzzel
-      #- starship
+      - polkitd
+      - policykit-1-gnome
+      - xdg-utils
+      - xdg-desktop-portal-gtk
+      - xdg-desktop-portal-wlr
+      - xdg-desktop-portal
     remove:
       - nano 
       - nano-default-editor
