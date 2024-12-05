@@ -19,7 +19,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
+      #- https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/errornointernet/packages/repo/fedora-%OS_VERSION%/errornointernet-packages-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/azandure/hyprland-ecosystem/repo/fedora-%OS_VERSION%/azandure-hyprland-ecosystem-fedora-%OS_VERSION%.repo
     install:
@@ -37,7 +37,8 @@ modules:
       #- qt5ct 
       #- qt6ct 
       #- qt5-qtwayland
-      - xorg-x11-server-Xwayland
+      #- xorg-x11-server-Xwayland
+      - xwayland-satellite
     remove:
       - nano 
       - nano-default-editor
