@@ -36,6 +36,7 @@ modules:
       - qt5ct 
       - qt6ct 
       - qt5-qtwayland
+      - xorg-x11-server-Xwayland
     remove:
       - nano 
       - nano-default-editor
