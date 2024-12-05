@@ -26,8 +26,8 @@ modules:
       - labwc
       - wlr-randr
       - fuzzel
-      - polkitd
-      - policykit-1-gnome
+      - polkit
+      - gnome-polkit
       - xdg-utils
       - xdg-desktop-portal-gtk
       - xdg-desktop-portal-wlr
