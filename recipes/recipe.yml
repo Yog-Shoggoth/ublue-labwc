@@ -27,7 +27,7 @@ modules:
       - wlr-randr
       - fuzzel
       - polkit
-      - gnome-polkit
+      #- gnome-polkit
       - xdg-utils
       - xdg-desktop-portal-gtk
       - xdg-desktop-portal-wlr
