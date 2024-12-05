@@ -35,7 +35,7 @@ modules:
       - gnome-keyring
       - qt5ct 
       - qt6ct 
-      - qtwayland5
+      - qt5-qtwayland
     remove:
       - nano 
       - nano-default-editor
