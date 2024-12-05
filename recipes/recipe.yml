@@ -24,7 +24,6 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/azandure/hyprland-ecosystem/repo/fedora-%OS_VERSION%/azandure-hyprland-ecosystem-fedora-%OS_VERSION%.repo
     install:
       - labwc
-      - wl-clipboard
       - wlr-randr
       - fuzzel
       - polkitd
