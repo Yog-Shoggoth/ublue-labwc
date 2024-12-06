@@ -30,14 +30,8 @@ modules:
       - mako
       - xdg-utils
       - xdg-desktop-portal-gtk
-      #- xdg-desktop-portal-wlr
       - xdg-desktop-portal
       - gnome-keyring
-      #- qt5ct 
-      #- qt6ct 
-      #- qt5-qtwayland
-      #- xorg-x11-server-Xwayland
-      - xwayland-satellite
     remove:
       - nano 
       - nano-default-editor
