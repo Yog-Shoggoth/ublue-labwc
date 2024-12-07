@@ -33,6 +33,7 @@ modules:
       - xdg-desktop-portal-gtk
       - xdg-desktop-portal
       - xorg-x11-server-Xwayland.x86_64
+      - libxkbcommon
       - gnome-keyring
     remove:
       - nano 
