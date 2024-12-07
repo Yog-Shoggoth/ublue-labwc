@@ -23,7 +23,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/errornointernet/packages/repo/fedora-%OS_VERSION%/errornointernet-packages-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/azandure/hyprland-ecosystem/repo/fedora-%OS_VERSION%/azandure-hyprland-ecosystem-fedora-%OS_VERSION%.repo
     install:
-      - labw
+      - labwc
       - waybar
       - wlr-randr
       - fuzzel
