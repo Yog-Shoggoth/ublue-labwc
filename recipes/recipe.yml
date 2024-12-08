@@ -32,6 +32,7 @@ modules:
       - lxqt-policykit
       - mako
       - wl-clipboard
+      - libsfdo
       #- xdg-utils
       - xdg-desktop-portal-hyprland
       - xdg-desktop-portal-gtk
