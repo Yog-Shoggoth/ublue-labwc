@@ -31,13 +31,14 @@ modules:
       - polkit
       - lxqt-policykit
       - mako
-      - wl-clipboard
       - libsfdo
+      - glibc-common
       #- xdg-utils
       - xdg-desktop-portal-hyprland
       - xdg-desktop-portal-gtk
       - xdg-desktop-portal
       - xorg-x11-server-Xwayland.x86_64
+      - libX11
       - libxkbcommon
       - gnome-keyring
     remove:
