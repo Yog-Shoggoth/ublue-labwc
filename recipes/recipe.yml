@@ -54,6 +54,13 @@ modules:
   - type: brew
     nofile-limits: true # increase nofile limits
     brew-analytics: false # disable telemetry
+
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - JetBrainsMono
+        - Iosevka
+        - NerdFontsSymbolsOnly
   
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
