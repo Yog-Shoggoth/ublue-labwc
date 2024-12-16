@@ -29,7 +29,7 @@ modules:
       - wlr-randr
       - fuzzel
       - polkit
-      - lxqt-policykit
+      - xfce-polkit
       - mako
       - libsfdo
       - glibc-common
@@ -41,6 +41,17 @@ modules:
       - libX11
       - libxkbcommon
       - gnome-keyring
+      # qemu etc.
+      - libvirt-daemon-config-network
+      - libvirt-daemon-kvm
+      - qemu-kvm
+      - guestfs-tools
+      - virt-install
+      - virt-manager
+      - virt-top
+      - virt-viewer
+      - python3-tools
+      - python3-libguestfs
     remove:
       - nano 
       - nano-default-editor
