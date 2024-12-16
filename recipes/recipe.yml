@@ -26,6 +26,7 @@ modules:
     install:
       #- labwc
       - https://kojipkgs.fedoraproject.org/packages/labwc/0.8.2/1.fc41/x86_64/labwc-0.8.2-1.fc41.x86_64.rpm
+      - seatd
       - waybar
       - wlr-randr
       - fuzzel
